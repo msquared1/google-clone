@@ -1,0 +1,138 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* { 
+  outline: 1px solid black;
+}*/
+
+html , body {
+	width:100%;
+	font-family: sans-serif;
+	height:490px;
+}
+
+.contacts {
+	margin-top: 10px;
+	margin-left: 80%;
+	margin-right:15px;
+	font-size: 12px;
+}
+
+a {
+	padding:6px;
+}
+
+#grid {
+	height:20px;
+	width:20px;
+	margin-bottom: -6px;
+}
+
+
+#signin {
+	background-color: blue;
+	border:1px solid #4285F4;
+	font-weight: bold;
+	outline:none;
+	color:white;
+	height:27px;
+	width:53px;
+	font-size: 12px;
+}
+
+#googlelogo {
+	height:83px;
+	width:248px;
+	padding-top: 127px;
+	margin-left: 41%;
+	
+}
+
+#textarea {
+	padding-top: -15px;
+	height:20px;
+	width: 500px;
+	margin-top: 20px;
+	margin-left:30%;
+}
+
+#microphone {
+	display:inline;
+	float:right;
+}
+
+.buttons {
+	margin-left:41%;
+	padding:15px;
+
+}
+
+#footer {
+	margin-top: 265px;
+	height:41px;
+	width: 100%;
+	background-color: silver;
+	font-size: small;
+
+}
+
+.footerleft {
+	text-align: bottom;
+	color:black;
+
+}
+span {
+	margin-left: 60%;
+	text-align: bottom;	
+	color:black;
+}
+
+input {
+	box-shadow: -2px 2px 4px;
+	font-size: 12px;
+}
+
+
+	
